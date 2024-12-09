@@ -8,6 +8,8 @@ import plotly.express as px
 import time
 from PIL import Image
 from wordcloud import WordCloud
+from sklearn.metrics.pairwise import cosine_similarity
+import os
 
 from utils import new_line
 from config import set_page_config
@@ -26,7 +28,6 @@ from model_building import *
 # Set configuration and initialize state
 set_page_config()
 initial_state()
-
 
 # Progress Bar
 def progress_bar():
