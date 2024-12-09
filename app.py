@@ -146,8 +146,6 @@ if st.session_state.df is not None:
     display_transformation_options(st, df)
 
 
-    # Call to the EDA module function
-    eda_module.show_eda(df)
     
                      
     st.divider()          
