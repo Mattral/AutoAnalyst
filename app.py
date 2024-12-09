@@ -180,4 +180,3 @@ if st.session_state.df is not None:
             st.session_state.df = None
             st.session_state.clear()
             st.experimental_rerun()
-
